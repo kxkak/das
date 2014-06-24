@@ -137,7 +137,7 @@ $(function() {
                             [@cms_content_list count='6' orderBy='4' titLen='24' channelId='12'  channelOption='1']
                             [#list tag_list as a]
                             
-                            <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=23 /]</a></dd>
+                            <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=20 /]</a><span style="float:right">${a.releaseDate?string("yyyy-MM-dd")}</span></dd>
                             
                             [/#list]
                             [/@cms_content_list]
@@ -186,7 +186,7 @@ $(function() {
                                [@cms_content_list count='6' orderBy='4' titLen='24' channelId='12'  channelOption='1']
                                [#list tag_list as a]
                             
-                               <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=23 /]</a></dd>
+                               <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=20 /]</a><span style="float:right">${a.releaseDate?string("yyyy-MM-dd")}</span></dd>
                             
                               [/#list]
                               [/@cms_content_list]
@@ -204,7 +204,7 @@ $(function() {
                                [@cms_content_list count='6' orderBy='4' titLen='10' channelId='12'  channelOption='1']
                             [#list tag_list as a]
                             
-                            <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=16 /]</a></dd>
+                            <dd><a href="${a.url}" title="${a.title}" target="_blank" >·[@text_cut s=a.title len=16 /]</a><span style="float:right">${a.releaseDate?string("yyyy-MM-dd")}</span></dd>
                             
                             [/#list]
                             [/@cms_content_list]
