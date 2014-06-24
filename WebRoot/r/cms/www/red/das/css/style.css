@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:auto;
+	padding:5px 0px 0px 0px;
+	background-image:url(../img/szdajbg.jpg);
+	font-size: 12pt;
+font-family: 宋体;}
+
+
+a:link,a:visited { text-decoration:none;color:#5B5B5B;}
+a:active { text-decoration:none;}
+a:hover {color:#FF6600;	text-decoration:underline;	}
+
+li,dl{list-style-type:none;margin: 0px;	padding: 0px;}
+dt,dd{margin:0;padding:0;}
+
+div{
+	//border:1px solid #000;
+}
+
+.head{
+	height:125px;
+	width:1000px;
+	margin:auto;
+	background-image:url(../img/head.png);
+}
+.navi{
+	height:35px;
+	width:1000px;
+	margin:auto;
+	background-image:url(../img/navi.jpg);
+}
+
+.container{
+	min-height:430px;
+	width:1000px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+.footer{
+	height:30px;
+	width:1000px;
+	margin:auto;
+}
+
+.clear{
+	clear:both;}
+
+
+
+
+

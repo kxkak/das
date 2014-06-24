@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+.collection{
+	margin-top:5px;
+	height:130px;
+	background-image:url(../img/scrollpic.png);
+	padding-left:35px;
+	padding-top:4px;
+}
+
+
+.left1{
+	width:24%;
+	float:left;
+	min-height:420px;}
+
+.right1{
+	width:750px;
+	float:left;
+	margin-left:10px;
+	min-height:420px;
+	
+}
+
+.intro{
+	min-height:265px;
+	margin-bottom:10px;
+}
+
+.intro_head{
+background: url(../img/introbg01.png);
+display:block;
+width:228px;
+height:44px;
+
+}
+
+.intro_con{
+background: url(../img/introbg02.png);
+display:block;
+width:228px;
+height:250px;
+padding-top:5px;
+
+}
+
+.intro_foot{
+background: url(../img/introbg03.png)  no-repeat ;
+display:block;
+width:228px;
+height:13px;
+
+}
+
+
+.intro_text{
+
+margin:0px 10px 5px 10px;
+ font-weight: normal;
+font-size:11pt;
+}
+
+
+
+
+
+	
+.tologin{
+	height:190px;
+	background:url(../img/tologin_bg.gif) no-repeat;
+}
+	
+.r1_row1{
+	height:288px;
+	//border-radius: 15px;
+	//border:2px solid #CCC;
+	padding-left:2px;
+	padding-top:2px;
+	//background:none repeat scroll 0% 0% rgb(243, 238, 230);;
+        background-image:url(../img/gzdtbg.png);
+}
+	
+	
+.works{
+	width:438px;
+	float:left;
+	height:270px;
+	//border-radius: 15px;
+       // border:1px solid;
+        margin:7px;
+        background: none repeat scroll 0% 0% rgb(255, 249, 231);
+	//background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+
+.works dl dt{
+
+background-image:url(../../das/img/title_gzdt.png);
+height:50px;text-align:right;
+line-height: 50px;
+padding-right:5px;
+}
+
+
+
+
+
+dl dd{
+
+line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.works_pic{
+	width:280px;
+	float:left;
+        margin-top:8px;
+        margin-left:5px;
+	height:270px;
+       // border:1px solid;
+}
+	
+.r1_row2{
+	height:260px;
+	margin-top:5px;
+	padding-left:5px;
+
+        background-image:url(../img/row2bg.png);
+}
+	
+.inform{
+	width:440px;
+	float:left;
+	height:240px;
+        margin:7px;
+	background: none repeat scroll 0% 0% rgb(255, 249, 231);
+}
+
+
+.inform dl dt{
+
+background-image:url(../../das/img/title_tzgg.png);
+height:50px;text-align:right;
+line-height: 50px;
+padding-right:5px;
+}
+
+
+.r1_row2_r{
+	width:285px;
+	height:180px;
+	float:left;
+        margin-top:7px;
+        margin-left:0px;
+}
+	
+.download{
+	height:240px;
+	background: none repeat scroll 0% 0% rgb(255, 249, 231);
+}
+
+.download dl dt{
+
+background-image:url(../../das/img/xzzx.png);
+height:40px;text-align:right;
+line-height: 50px;
+padding-right:5px;
+}
+
+
+
+.flinks{
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+	background-image:url(../img/flinks_bg.jpg);
+}
+	
+	
+	
+	
+	
+	
+	
+	
