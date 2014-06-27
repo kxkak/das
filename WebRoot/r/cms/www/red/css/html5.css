@@ -40,7 +40,7 @@ img{ border:0; -ms-interpolation-mode:bicubic; }
 #topmenu dt{text-align:center; padding:0; float:left; margin:0px; height:20px; line-height:20px; font-weight:bold; width:12.35%; margin-top:8px; border-right:1px dashed #71b4f1;}
 #topmenu dt .menu_first{padding-left:15px; width:12.35%;}
 #topmenu dt a{color:#fff; font-size:14px;}
-#topmenu dt a.selected:link,#topmenu dt a.selected:visited{font-weight:bold; color:#cfe8ff;  width:100%; display:block;}
+#menu li a.selected:link,#menu li a.selected:visited{font-weight:bold; color:#cfe8ff;  width:100%; display:block;}
 #topmenu dt a:link {text-decoration:none; color:#ffffff;}
 #topmenu dt a:visited {text-decoration:none; color:#ffffff;}
 #topmenu dt a:hover {text-decoration:none; color:#cfe8ff;}

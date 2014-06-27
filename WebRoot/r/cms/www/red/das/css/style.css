@@ -30,7 +30,7 @@ div{
 	height:35px;
 	width:1000px;
 	margin:auto;
-	background-image:url(../img/navi.jpg);
+	//background-image:url(../img/navi.jpg);
 }
 
 .container{
@@ -51,7 +51,26 @@ div{
 .clear{
 	clear:both;}
 
+/*导航栏*/
+
+#menu {padding:0 0 0 1em; margin:0 auto; list-style:none; height:36px; background:url(../img/navi.png);border:1px solid #1e1e5c; border-width:0 1px;}
+#menu li {float:left;}
+#menu li a {display:block; float:left; height:36px; line-height:36px; color:rgb(151, 71, 57); text-decoration:none; font-family:"\5B8B\4F53",san-serif;text-align:center; padding:0 0 0 14px; cursor:pointer; font-size:14px;}
+#menu li a b {float:left; display:block; padding:0 28px 0 14px;}
+
+#menu li a:hover {color:#fff; background: url(../img/pro_f1.png);}
+#menu li a:hover b {background:url(../img/pro_f1.png) no-repeat right top;}
+
+#menu li a.selected:link,#menu li a.selected:visited{background: url(../img/pro_f1.png);}
+
+
+#menu li.current a {color:#fff; background:url(menu3img/pro_four2.gif);}
+#menu li.current a b {background:url(menu3img/pro_four2.gif) no-repeat right top;}
+#menu li.current a:hover {color:#fff; background: url(menu3img/pro_four2.gif); cursor:default;}
+#menu li.current a:hover b {background:url(menu3img/pro_four2.gif) no-repeat right top;}
 
 
 
-
+/*页脚信息栏*/
+.footBg{ width:100%; margin:auto; line-height:28px; text-align:center;}
+.footBglm{ line-height:28px; background:#f2f2f2; }
